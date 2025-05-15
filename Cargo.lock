@@ -2664,6 +2664,7 @@ checksum = "31ae425815400e5ed474178a7a22e275a9687086a12ca63ec793ff292d8fdae8"
 name = "erunner"
 version = "0.1.0"
 dependencies = [
+ "libffi-sys",
  "rustyscript",
 ]
 

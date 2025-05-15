@@ -9,3 +9,5 @@ deno_media_type = { git = 'https://github.com/denoland/deno_media_type', tag = "
 
 [dependencies]
 rustyscript = { git = "https://github.com/rscarson/rustyscript.git", branch = "master", features = ["default", "worker", "node_experimental"] }
+libffi-sys = {  version = "2.3.0", features = ["system"] }
+
